@@ -8,7 +8,7 @@ import Clients from "./Clients";
 import Testimonials from "./Testimonials";
 import Unlock from "../Aboutus/Unlock";
 
-export default function headove() {
+export default function Headove() {
   return (
     <div className='headove'>
       <ImageSection />
