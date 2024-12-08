@@ -1,10 +1,10 @@
 /** @format */
 
 import React from "react";
-import jessie from "../../assets/desktop/JZB.jpg";
-import fl from "../../assets/desktop/F&L.jpg";
+import jessie from "../../assets/desktop/JZB.png";
+import fl from "../../assets/desktop/F&L.png";
 import sql from "../../assets/desktop/SASL.png";
-import luround from "../../assets/desktop/luroundlogo.jpg";
+import luround from "../../assets/desktop/luroundlogo.png";
 import broom from "../../assets/desktop/broomApp.png";
 
 export default function Clients() {

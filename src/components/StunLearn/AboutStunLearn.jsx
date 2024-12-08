@@ -3,14 +3,16 @@
 import React from "react";
 import image2 from "../../assets/desktop/stunlearn12.png";
 import image3 from "../../assets/desktop/stunlearn13.png";
-
+import image21 from "../../assets/desktop/stunlearn-mobile.png";
+import image31 from "../../assets/desktop/mission-mobile.png";
 export default function AboutStunLearn() {
   return (
     <section>
       <div className='about-mission'>
         <div className='about-stunlearn'>
           <div className='aboutus'>
-            <img src={image2} alt='image2' />
+            <img className='aboutus-image1' src={image2} alt='image2' />
+            <img className='aboutus-image2' src={image21} alt='image2' />
           </div>
 
           <div className='stun-about'>
@@ -38,7 +40,7 @@ export default function AboutStunLearn() {
             <div>
               <p>
                 {" "}
-                Our mission is to be a forefront education brand
+                To be a forefront education brand
                 <br /> that enhances productivity and inspires
                 <br /> passion.
               </p>
@@ -68,7 +70,8 @@ export default function AboutStunLearn() {
           </div>
 
           <div className='aboutus'>
-            <img src={image3} alt='image2' />
+            <img className='mission-image1' src={image3} alt='image2' />
+            <img className='mission-image2' src={image31} alt='image2' />
           </div>
         </div>
       </div>

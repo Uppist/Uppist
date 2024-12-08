@@ -25,7 +25,7 @@ export default function NavBar() {
     <header className='firstsection'>
       <nav className='nav'>
         <Link to='/'>
-          <img src={uppist} alt='logo' className='uppist logo' />
+          <img src={uppist} alt='logo' className='uppist-logo' />
         </Link>
 
         <ul className='nav-ul'>
@@ -70,11 +70,6 @@ export default function NavBar() {
             </div>
           )}
 
-          {/* </Link> */}
-
-          {/* <Link to='/vancany'>
-            <li className='list'>Vacancies</li>
-          </Link> */}
           <Link to='/contact'>
             <li className='list-contact contact-nav'>Contact Us</li>
           </Link>
@@ -120,7 +115,7 @@ export default function NavBar() {
         >
           <div className='image-close'>
             <Link to='/'>
-              <img className='image-luround' src={uppist} />
+              <img className='uppist-logo' src={uppist} />
             </Link>
 
             <a className='dropdown-close' id='sidebar-close' onClick={onClose}>
@@ -146,8 +141,7 @@ export default function NavBar() {
             <Link to='/'>
               <li className='sidebar-list'>Home</li>
             </Link>
-            {/* <Link to='/services'> */}
-            <li className='sidebar-list'>
+            <li className='sidebar-list company' onClick={Dropdown}>
               Company
               <svg
                 className='company-svg'
@@ -165,26 +159,23 @@ export default function NavBar() {
                   strokeLinejoin='round'
                 />
               </svg>
-              {isDropdown && (
-                <div className='dropdown-company'>
-                  <ul>
-                    <Link to='/headove'>
-                      {" "}
-                      <li>Headove</li>
-                    </Link>
-                    <Link to='/luround'>
-                      {" "}
-                      <li>Luround</li>
-                    </Link>
-                    <li>StunLearn</li>
-                  </ul>
-                </div>
-              )}
             </li>
-            {/* </Link> */}
-            {/* <Link to='/vancany'>
-              <li className='sidebar-list'>Vacancies</li>
-            </Link> */}
+            {isDropdown && (
+              <ul className='dropdown-company-mobile'>
+                <Link to='/headove'>
+                  {" "}
+                  <li>Headove</li>
+                </Link>
+                <Link to='/luround'>
+                  {" "}
+                  <li>Luround</li>
+                </Link>
+                <Link to='/stunlearn'>
+                  <li>StunLearn</li>
+                </Link>
+              </ul>
+            )}
+
             <Link to='/contact'>
               <li className='sidebar-contact'>Contact Us</li>
             </Link>

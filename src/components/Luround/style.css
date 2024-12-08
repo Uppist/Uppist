@@ -774,7 +774,6 @@ body::-webkit-scrollbar {
 
   .sidebar-menu li {
     padding: 15px;
-    text-align: center;
   }
 
   .sidebar-menu li a {
@@ -880,6 +879,7 @@ body::-webkit-scrollbar {
   }
 
   hr {
+    transform: rotate(90deg);
     width: 22.8px;
     border: 0.24px solid hsla(180, 11%, 89%, 1);
   }

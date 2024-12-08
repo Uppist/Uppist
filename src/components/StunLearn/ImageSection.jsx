@@ -2,6 +2,8 @@
 
 import React from "react";
 import stun from "../../assets/desktop/stunlearn2.png";
+import stun1 from "../../assets/desktop/stunlearn21.png";
+
 import StunLearnSvg from "./StunLearnSvg";
 import { Link } from "react-router-dom";
 
@@ -9,6 +11,8 @@ export default function ImageSection() {
   return (
     <div>
       <img className='stun-img' src={stun} alt='' />
+      <img className='stun-img2' src={stun1} alt='' />
+
       <div className='img-text stun-text'>
         <div>
           <StunLearnSvg />

@@ -139,10 +139,16 @@ a {
 /* About section styling*/
 
 .aboutsection {
+  background: url("../src/assets/desktop/circle2.png") no-repeat;
+  background-position-y: 516px;
+  background-position-x: right;
   margin-top: 105px;
 }
 
 .hero-section {
+  background: url("../src/assets/desktop/circle.png") no-repeat;
+  background-position-y: 100px;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
@@ -278,6 +284,7 @@ a {
 }
 
 .section-value > label {
+  font-family: "Inter";
   font-size: 48px;
   font-weight: 700;
   color: hsla(293, 78%, 31%, 1);
@@ -296,7 +303,7 @@ a {
 }
 
 .headove2,
-.luround2,
+.luround-image2,
 .stunlearn2 {
   display: none;
 }
@@ -501,6 +508,7 @@ a {
 }
 
 .hr-uppist {
+  transform: none;
   width: -webkit-fill-available;
   border: 3px solid hsla(34, 94%, 54%, 1);
 }
@@ -879,6 +887,7 @@ form {
   font-size: 48px;
   color: hsla(0, 0%, 17%, 1);
   font-weight: 700;
+  font-family: "Inter";
 }
 
 .text-about-mobile {
@@ -919,6 +928,7 @@ form {
 
 .brand-design hr,
 .brand-marketing hr {
+  transform: none;
   margin: 0;
   width: 80px;
   border-bottom: 3px solid hsla(34, 94%, 54%, 1);
@@ -979,6 +989,12 @@ form {
 
 .stun-img {
   width: -webkit-fill-available;
+}
+
+.stun-img2,
+.aboutus-image2,
+.mission-image2 {
+  display: none;
 }
 
 .stun-text {
@@ -1131,12 +1147,14 @@ form {
     list-style: none;
     margin-top: 30px;
     padding: 0;
+    margin: 0;
   }
 
   .sidebar-list {
     display: flex;
     align-items: center;
     height: 60px;
+    justify-content: space-between;
     border-bottom: 2px solid hsla(33, 93%, 94%, 1);
   }
 
@@ -1145,15 +1163,39 @@ form {
     width: 150px;
     text-align: center;
     background-color: hsla(34, 94%, 54%, 1);
+    font-size: 16px;
+    margin-left: 30px;
+  }
+
+  .dropdown-company {
+    display: none;
+  }
+
+  .dropdown-company-mobile {
+    display: grid;
+    list-style: none;
+    gap: 8px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(29, 46, 46, 0.8);
+    /* border-bottom: 2px solid hsla(33, 93%, 94%, 1); */
   }
 
   /*About Section*/
 
+  .background1 {
+    background: url("../src/assets/desktop/circle3.png") no-repeat;
+  }
   .aboutsection {
+    background: url("../src/assets/desktop/circle4.png") no-repeat;
+    background-position-x: right;
+    background-position-y: 520px;
     display: grid;
     margin-top: 125px;
   }
   .hero-section {
+    background-position-y: -200px;
     grid-template-columns: 1fr;
     padding: 0;
   }
@@ -1177,9 +1219,11 @@ form {
     font-size: 16px;
   }
 
-  .img-text span {
-    width: 166px;
+  .img-text span,
+  .empower span {
+    width: 142px;
     padding: 12px 28px;
+    font-size: 16px;
   }
 
   .img-text span svg {
@@ -1190,7 +1234,7 @@ form {
     grid-template-columns: 1fr;
     place-items: center;
     text-align: center;
-    padding: 0px 25px;
+    padding: 50px 25px;
   }
 
   .mission,
@@ -1215,12 +1259,12 @@ form {
     gap: 300px;
   }
   .headove1,
-  .luround1,
+  .luround-image1,
   .stunlearn1 {
     display: none;
   }
   .headove2,
-  .luround2,
+  .luround-image2,
   .stunlearn2 {
     display: block;
   }
@@ -1237,6 +1281,18 @@ form {
     width: 290px;
     border-top-left-radius: 0;
     border-bottom-right-radius: 8px;
+  }
+
+  .headove-container button,
+  .luround-container button,
+  .stunlearn-container button {
+    font-size: 12px;
+  }
+
+  .headove-container p,
+  .luround-container p,
+  .stunlearn-container p {
+    font-size: 16px;
   }
 
   .luround-container {
@@ -1286,10 +1342,6 @@ form {
     margin-top: 60px;
   }
 
-  .imagesection {
-    margin-top: 300px;
-  }
-
   .unlocksection {
     grid-template-columns: 1fr;
     padding: 0px;
@@ -1321,6 +1373,10 @@ form {
   }
   .unlockimage2 {
     display: block;
+  }
+
+  .imagesection img {
+    margin-top: 255px;
   }
   .contact-us {
     font-size: 16px;
@@ -1636,7 +1692,96 @@ form {
 
   .brand-design hr,
   .brand-marketing hr {
+    transform: none;
     width: 48px;
+  }
+
+  /*StunLearn*/
+
+  .stun-text {
+    top: -455px;
+    padding: 0px 32px;
+    align-items: center;
+  }
+
+  .stun-img,
+  .aboutus-image1,
+  .mission-image1 {
+    display: none;
+  }
+
+  .stun-img2,
+  .aboutus-image2,
+  .mission-image2 {
+    display: block;
+  }
+
+  .stun-img2 {
+    margin-top: 286px;
+  }
+
+  .stun-text > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stun-text svg {
+    width: 208px;
+  }
+
+  .stun-text p {
+    margin: 0;
+  }
+
+  .about-stunlearn,
+  .mission-stunlearn {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 0;
+  }
+
+  .stun-about {
+    gap: 0;
+  }
+  .stun-about p,
+  .about-mission p,
+  .teach-mode ul,
+  .teach-mode label {
+    font-size: 16px;
+    width: 300px;
+    margin: 0;
+  }
+  .about-mission {
+    margin-top: 110px;
+    gap: 100px;
+  }
+  .teach-mode {
+    gap: 20px;
+  }
+
+  .aboutus {
+    margin-top: 25px;
+    grid-row: 1;
+  }
+
+  .stun-mission {
+    gap: 0;
+  }
+
+  .stun-about h2,
+  .about-mission h2 {
+    text-align: center;
+    position: relative;
+    top: -260px;
+    font-size: 20px;
+  }
+
+  .stun-mission h2 {
+    text-align: center;
+    top: -330px;
   }
 }
 

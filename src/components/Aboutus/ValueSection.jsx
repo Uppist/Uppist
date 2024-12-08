@@ -57,8 +57,8 @@ export default function ValueSection() {
         </div>
 
         <div>
-          <img className='luround1' src={luround} alt='' />
-          <img className='luround2' src={luround1} alt='' />
+          <img className='luround-image1' src={luround} alt='' />
+          <img className='luround-image2' src={luround1} alt='' />
 
           <div className='luround-container'>
             <div>
