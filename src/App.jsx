@@ -5,7 +5,6 @@ import Contactus from "./components/Contactus/Contactus";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import HeadoveSection from "./components/Headove/headoveSection";
 import StunLearn from "./components/StunLearn/StunLearn";
-import Luround from "./components/Luround/Luround";
 
 export default function App() {
   return (
@@ -17,8 +16,6 @@ export default function App() {
           <Route path='contact' element={<Contactus />} />
 
           <Route path='stunlearn' element={<StunLearn />} />
-
-          {/* <Route path='luround' element={<Luround />} /> */}
         </Routes>
       </div>
     </HashRouter>

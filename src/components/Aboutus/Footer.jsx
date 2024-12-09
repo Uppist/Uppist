@@ -78,7 +78,7 @@ export default function Footer() {
           <div className='location'>
             <label>Contact</label>
             <span>
-              <label>Email:</label> cc@uppistgroup.com
+              <label>Email:</label> support@uppist.xyz
             </span>
             <span>
               <label> Phone:</label> (+234) 913 203 5923

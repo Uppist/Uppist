@@ -15,7 +15,7 @@ export default function Headove() {
       <AboutHeadove />
       <Core />
       <Clients />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Unlock />
     </div>
   );

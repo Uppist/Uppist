@@ -18,7 +18,7 @@ export default function AboutUs() {
       <NavBar />
       <AboutSection />
       <ValueSection />
-      <Unlock />
+      <Unlock className='stunlearn-unlock' />
       <Choose />
       <Footer />
     </div>
