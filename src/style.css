@@ -1274,7 +1274,12 @@ form {
     font-size: 14px;
     font-weight: 500;
     color: rgba(29, 46, 46, 0.8);
+    padding: 10px;
     /* border-bottom: 2px solid hsla(33, 93%, 94%, 1); */
+  }
+
+  .dropdown-company-mobile li {
+    padding: 8px;
   }
 
   /*About Section*/

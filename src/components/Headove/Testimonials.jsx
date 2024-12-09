@@ -51,7 +51,7 @@ export default function Testimonials() {
         <Slider ref={sliderRef} {...settings} className='custom-slider'>
           {testimonial.map((data, index) => (
             <div className='businessowner' key={index}>
-              <img className='imageowner' src={data.Image} alt={data.Name} />
+              <img className='imageowner' src={data.Image} />
               <div className='name'>
                 <span className='datareview'>{data.Name}</span>
                 <span className='dataname'>{data.Title}</span>
