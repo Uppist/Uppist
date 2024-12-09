@@ -18,7 +18,7 @@ export default function App() {
 
           <Route path='stunlearn' element={<StunLearn />} />
 
-          <Route path='luround' element={<Luround />} />
+          {/* <Route path='luround' element={<Luround />} /> */}
         </Routes>
       </div>
     </HashRouter>

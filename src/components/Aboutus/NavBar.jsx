@@ -59,7 +59,7 @@ export default function NavBar() {
                   {" "}
                   <li>Headove</li>
                 </Link>
-                <Link to='/luround'>
+                <Link to='https://www.luround.com'>
                   {" "}
                   <li>Luround</li>
                 </Link>
@@ -166,7 +166,7 @@ export default function NavBar() {
                   {" "}
                   <li>Headove</li>
                 </Link>
-                <Link to='/luround'>
+                <Link to='https://www.luround.com'>
                   {" "}
                   <li>Luround</li>
                 </Link>
