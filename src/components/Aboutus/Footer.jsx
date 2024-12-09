@@ -133,7 +133,7 @@ export default function Footer() {
               {" "}
               <li>Headove</li>
             </Link>
-            <Link to='/luround'>
+            <Link to='https://www.luround.com'>
               {" "}
               <li>Luround</li>
             </Link>
@@ -156,7 +156,7 @@ export default function Footer() {
         <label>Connect with us</label>
         <ul>
           <li>
-            <Link to='https://web.facebook.com/sqladvisory?mibextid=LQQJ4d&_rdc=1&_rdr#'>
+            <Link to=''>
               <svg
                 width='36'
                 height='36'
@@ -192,7 +192,7 @@ export default function Footer() {
             </Link>
           </li>
           <li>
-            <Link to='https://x.com/sqladvisory?s=11&t=fPYDdhVOkJjxNRmoxEVdUQ'>
+            <Link to=''>
               <svg
                 width='36'
                 height='36'
@@ -277,7 +277,7 @@ export default function Footer() {
             </svg>
           </li>
           <li>
-            <Link to='https://www.instagram.com/sqladvisory?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>
+            <Link to=''>
               <svg
                 width='36'
                 height='36'
